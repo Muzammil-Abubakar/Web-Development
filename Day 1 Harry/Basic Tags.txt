@@ -1,0 +1,45 @@
+First we will write 
+
+<!DOCTYPE html>
+
+
+then we will write 
+
+<html lang="en">
+
+then we will write head and then the main thing called body
+
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport">
+<title> Document </title>
+</head>
+
+<body>
+</body>
+
+</html>
+
+---
+we put link in head of html to link css with html
+and we put script in the body just before the end tag, we have to provide a src to script and it is written in between the starting brackets
+
+meta description is what is shown on google below clickable link of website 
+
+then there are also attributes that are defined with key value pairs
+
+the most important part of being a developers is to copy paste things that are redundant and not necessary
+
+then there is heading tag used to make headings, the good use of heading tags matters somewhat for SEO. It is used to build heirarchy.
+
+Then we are also studying the paragraph tag 
+
+alert tag waits for answer before showing the rest of the page.
+
+Attributes are the stuff that are within a tag or element to further improve its functionality 
+
+anchor tag <a> is used for making links, it has another attribute target for opening in a new blank page
+
+img tags and then their attributes such as src alt and width height
+
+table tag and then colspan and rowspan
