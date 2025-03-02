@@ -1,0 +1,21 @@
+First we will write 
+
+<!DOCTYPE html>
+
+
+then we will write 
+
+<html lang="en">
+
+then we will write head and then the main thing called body
+
+<head>
+<meta charset="UTF-8">
+<meta name = "viewport">
+<title> Document </title>
+</head>
+
+<body>
+</body>
+
+</html>
