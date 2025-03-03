@@ -1,0 +1,8 @@
+This is for flexbox, first we include 3 divs inside a div with class name = container, the others have class names such as item item 1
+
+then we go into the css propery of that and assign it display: flex;
+then we can change the flex-direction, then we also have options for aligning items along main axis and cross axis
+main axis is the axis that is horizontal by default, and we make changes in it by using justify content, then we have cross axis which uses align items
+align content is something that only works when we have flex-wrap enabled
+
+flex grow, flex shirnk and flex basis are used to grow an element based on remaining space, shrink an element respective to others, and provide a default width before the element starts shrinking respectively.
