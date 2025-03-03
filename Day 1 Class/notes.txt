@@ -6,3 +6,5 @@ main axis is the axis that is horizontal by default, and we make changes in it b
 align content is something that only works when we have flex-wrap enabled
 
 flex grow, flex shirnk and flex basis are used to grow an element based on remaining space, shrink an element respective to others, and provide a default width before the element starts shrinking respectively.
+
+Then we also have the align self property that is used to align on cross axis just for the individual element selected
