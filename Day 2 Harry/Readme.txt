@@ -1,7 +1,7 @@
 ok so table heirarchy goes something like this, first we add table tag than we add tr for a record, then at first we add th for heading, then we add td for data. 
 and then we can apply rowspan and colspan on that stuff
 
-caption tag is used at the start of the table for adding information about the caption
+caption tag is used at the start of the table for adding information about the table's caption
 
 we also have tags like tbody thead and tfoot, these are for grouping the table and applying css on it later on.
 
