@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element selector */
+        /* div{
+            background-color: red;
+        } */
+         /* Class Selector */
+        .red{
+            background-color: red;
+         }
+         /* ID Selector */
+        #green{
+            background-color: green;
+        }
+        /* Child Selector */
+        div > p{
+            background-color: yellow;
+        }
+        /* Descendant Selector */
+        div main{
+            background-color: blue;
+            color: azure;
+        }
+        /* Universal Selector */
+        *{
+            margin: 0;
+            padding: 0;
+        }
+        /* Pseudo Selectors */
+        a:hover{
+            background-color: crimson ;
+        }
+    </style>
+</head>
+<body>
+    <div class="red">I am a very big sigma</div>
+    <div id="green">I am not a very big sigma</div>
+    <div><p>I am a super very very big sigma</p></div>
+    <div><article><main>i am a super not sigma</main></article></div>
+    <a href="https://Google.com">Google</a>
+</body>
+</html>
