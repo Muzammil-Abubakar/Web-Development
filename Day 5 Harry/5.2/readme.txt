@@ -1,0 +1,1 @@
+Here we used the first of type, we could have also used the first child property but they will essentially do the same thing in this scenario.

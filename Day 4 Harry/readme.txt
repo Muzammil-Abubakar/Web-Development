@@ -12,7 +12,9 @@ Descendant Selector: Changes the child even if it is not direct child.
 
 Universal Selector: Changes the properties for the overall html document
 
-Pseudo Selectors: Some weird Selectors that are not related to the main selectors
+Attribute Selector: We just type it as a sentence in the attribute of an element like data=x and then we can change the element using this propery in our style sheet like this, [data=x], after that the whole styles we want to apply
+
+Pseudo Selectors: Some weird Selectors that are not related to the main selectors, such as the first child,
 
 Margin: Exists Outside the element
 Padding: Exists within the element outside the content
