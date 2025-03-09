@@ -1,0 +1,57 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+#navbar{
+    
+    width: 80vw;
+    height: 4vh;
+    margin: auto;
+    display: flex;
+    
+}
+
+.navbar-left{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    margin-right: 20vw;
+}
+
+.navbar-right{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+}
+
+hr{
+    width: 80%;
+    margin: auto;
+    border: solid 3px;
+    margin-bottom: 30px;
+}
+
+.hot-topics{
+    display: flex;
+    /* background-color: blue; */
+    width: 70vw;
+    margin: auto;
+    gap: 10px;
+}
+
+.hot-topics-break{
+    color: gray;
+    margin-bottom: 20px;
+}
+.main-page-left{
+    display: flex;
+    flex-direction: column;
+    
+    height: 60vh;
+    margin-left: 10%;
+    width: 30%;
+}
+
