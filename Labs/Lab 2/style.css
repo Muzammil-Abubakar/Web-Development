@@ -1,57 +1,88 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    padding: 0;
+    margin: 0;
+    font-family: Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 5000;
 }
-
-#navbar{
-    
-    width: 80vw;
-    height: 4vh;
-    margin: auto;
-    display: flex;
-    
-}
-
-.navbar-left{
+.header-inner {
+    padding: 0 32px;
+    height: 40px;
     display: flex;
     align-items: center;
-    gap: 30px;
-    margin-right: 20vw;
+    justify-content: space-between;
+    margin: 0 auto;
+    position: sticky;
+    color: black;
+    width: 100%;
+    max-width: 1440px;
 }
 
-.navbar-right{
-    display: flex;
+
+hr {
+    max-width: 1376px;
+    width: calc(100% - 64px); /* Ensures at least 32px margin on both sides */
+    margin: 0 auto;
+    border-bottom: 2px solid;
+}
+
+.left {
+    display: flex; /* Places divs side by side */
     align-items: center;
-    gap: 30px;
 }
 
-hr{
-    width: 80%;
-    margin: auto;
-    border: solid 3px;
-    margin-bottom: 30px;
+.left img:first-of-type{
+    margin-right: 20px ;
+
 }
 
-.hot-topics{
+.left div {
+    padding: 0 12px; /* Adds spacing between elements */
+}
+.left div:first-of-type {
+    padding: 0 12px; /* Adds spacing between elements */
+    margin-left: 12px;
+}
+
+.he-ri{
+    padding: 0 12px;
+}
+
+.wrapper-layout{
+    max-width: 1440px;
+    min-width: 300px;
+    width: 100%;
+    margin: 0 auto;
+    padding: 32px;
+}
+
+.ribbon{
     display: flex;
-    /* background-color: blue; */
-    width: 70vw;
-    margin: auto;
-    gap: 10px;
+    justify-content: space-evenly;
+    margin-bottom: 32px;
+    font-size: large;
 }
 
-.hot-topics-break{
-    color: gray;
-    margin-bottom: 20px;
-}
-.main-page-left{
+.container {
+    max-width: 1376px;
+    min-width: 300px;
+    width: 100%;
     display: flex;
-    flex-direction: column;
-    
-    height: 60vh;
-    margin-left: 10%;
-    width: 30%;
+    justify-content: space-between; /* Ensures spacing */
+    margin: 0 auto;
 }
 
+.container-left {
+    width: calc((1440px - 300px) * 0.4 + 300px * 0.4);
+    background-color: lightblue;
+}
+
+.container-middle {
+    width: calc((1440px - 300px) * 0.3 + 300px * 0.3);
+    background-color: lightgreen;
+}
+
+.container-right {
+    width: calc((1440px - 300px) * 0.2 + 300px * 0.2);
+    background-color: lightcoral;
+}
