@@ -44,6 +44,16 @@ hr {
     margin-left: 12px;
 }
 
+.right{
+    display: flex;
+    align-items: center;
+    
+}
+
+.right div{
+    padding: 0 12px;
+}
+
 .he-ri{
     padding: 0 12px;
 }
