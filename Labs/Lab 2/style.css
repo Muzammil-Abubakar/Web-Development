@@ -68,6 +68,7 @@ hr {
     min-width: 300px;
     width: 100%;
     display: flex;
+    background-color: red;
     justify-content: space-between; /* Ensures spacing */
     margin: 0 auto;
 }
